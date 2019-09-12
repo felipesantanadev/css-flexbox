@@ -107,4 +107,5 @@ The items are the contents packaged inside a container. We can see some importan
 
 
 ## References
-[CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+These README explanations were got from [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
