@@ -9,6 +9,8 @@ The main goal of a flex layout is to give the container the ability to alter its
 We can separate the flexbox system in two main groups, called `container` and `item(s)`, which will be
 explained below.
 
+![alt text](https://github.com/felipesantanadev/css-flexbox/blob/master/images/flexbox.jpg)
+
 
 ## Container
 
