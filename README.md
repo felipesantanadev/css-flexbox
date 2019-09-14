@@ -72,7 +72,7 @@ We can see some important container's properties below:
   5. `baseline`: items are aligned such as their baselines align
 
 
-- `align-items`  
+- `align-content`  
   This aligns a flex container's lines within when there is extra space in the cross-axis, similar to how justify-content aligns individual items within the main-axis. It can has the following values:  
 
   1. `flex-start / start` : items packed to the start of the container. The flex-start honors the flex-direction while start honors the writing-mode direction.

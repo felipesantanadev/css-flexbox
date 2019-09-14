@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Flexbox</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="grid">
+        <div>
+            <h4>order: integer; /* default is 0 */;</h4>
+            <div class="container">
+                <div class="item item-order">01 (order: 2)</div>
+                <div class="item item-order">02 (order: 1)</div>
+                <div class="item item-order">03 (order: 4)</div>
+                <div class="item item-order">04 (order: 3)</div>
+            </div>
+        </div>
+
+        <div>
+            <h4>flex-grow: integer; /* default is 0*/</h4>
+            <div class="container">
+                <div class="item item-grow">01 (flex-grow: 1)</div>
+                <div class="item item-grow">02 (flex-grow: 1)</div>
+                <div class="item">03 (flex-grow: 0)</div>
+                <div class="item">04 (flex-grow: 0)</div>
+            </div>
+        </div>
+
+        <div>
+            <h4>flex-basis: 150px;</h4>
+            <div class="container">
+                <div class="item flex-basis">01 (the basis is 150px)</div>
+                <div class="item flex-basis">02 (the basis is 150px)</div>
+                <div class="item flex-basis">03 (the basis is 150px)</div>
+                <div class="item flex-basis">04 (the basis is 150px)</div>
+            </div>
+        </div>
+
+        <div>
+            <h4>flex: 1 0 150px; /* flex-grow | flex-shrink | flex-basis */</h4>
+            <div class="container">
+                <div class="item flex">01</div>
+                <div class="item flex">02</div>
+                <div class="item flex">03</div>
+                <div class="item flex">04</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
